@@ -22,7 +22,7 @@ Follow these steps to set up the development environment and run the pipeline lo
 
 Prerequisites
 
-- Miniconda or Anaconda installed
+-  UV (recommended) or Miniconda/Anaconda installed
 
 - Python 3.8 or higher
 
@@ -31,7 +31,15 @@ Prerequisites
 git clone https://github.com/joas1847/financial-nlp.git
 ```
 
-### *2. Create and Activate Conda Environment*
+### *2. Create and Activate the Environment*
+Run the following commands to create a dedicated UV environment and install required packages:
+
+```
+uv sync
+.venv\Scripts\activate #Windows
+source .venv/bin/activate # Linux or macOS
+
+```
 
 Run the following commands to create a dedicated Conda environment and install required packages:
 
