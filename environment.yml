@@ -1,0 +1,8 @@
+name: financial_nlp_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r src/requirements.txt
